@@ -136,3 +136,36 @@ body {
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
+
+/* Hide the default cursor everywhere */
+* {
+  cursor: none !important;
+}
+
+/* Solid white custom cursor */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #5c33cc; /* Solid white */
+  border-radius: 50%;      /* Perfect circle */
+  pointer-events: none;    /* So it doesn't block clicks */
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease, background-color 0.2s ease;
+  z-index: 9999;
+}
+.cursor-hover {
+  transform: translate(-50%, -50%) scale(1.5);
+  background-color: #5c33cc; /* Keep it white */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+

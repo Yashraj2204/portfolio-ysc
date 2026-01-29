@@ -12,7 +12,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/tic tac toe.jpeg",
     tags: [
       
       {
@@ -50,7 +50,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/hrms.jpeg",
     tags: [
       {
         id: 1,
@@ -87,7 +87,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/weather app.jpeg",
     tags: [
       {
         id: 1,
@@ -111,12 +111,81 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 4,
+    title: "Meme Generator",
+    description:
+      "Created a user-friendly meme generator app enabling users to generate and share memes with customizable captions.",
+    subDescription: [
+      "Implemented image selection and preview functionality to provide instant visual feedback during meme creation.",
+      "Managed application state efficiently to ensure smooth updates and seamless user interactions.",
+      "Designed a responsive layout to support meme generation across different screen sizes and devices.",
+      "Focused on clean UI, usability, and performance optimization for an engaging user experience.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/meme creator.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "API",
+        path: "/assets/logos/api.svg",
+      },
+      {
+        id: 2,
+        name: "Vs Code",
+        path: "/assets/logos/visualstudiocode.svg",
+      },
+      {
+        id: 3,
+        name: "React.js",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "To Do App",
+    description:
+      "Developed a to-do application to manage daily tasks with add, update, and delete functionality in a clean interface.",
+    subDescription: [
+      "Managed application state efficiently to ensure real-time updates and smooth task interactions.",
+      "Added task status indicators to help users track completed and pending tasks easily.",
+      "Designed a responsive layout to support to-do list management across different screen sizes and devices.",
+      "Focused on clean UI, usability, and performance optimization for an engaging user experience.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/to do app.jpeg",
+    tags: [
+      {
+        id: 1,
+        name: "JSX",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "React.js",
+        path: "/assets/logos/react.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/7665555027",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
@@ -204,3 +273,27 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+
+
+
+
+// Create the cursor element
+const cursor = document.createElement('div');
+cursor.classList.add('cursor');
+document.body.appendChild(cursor);
+
+// Make it follow the mouse
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+});
+document.querySelectorAll('a, button').forEach(el => {
+    el.addEventListener('mouseenter', () => cursor.classList.add('cursor-hover'));
+    el.addEventListener('mouseleave', () => cursor.classList.remove('cursor-hover'));
+});
+
+
+
+
+
+
