@@ -17,7 +17,7 @@ const About = () => {
             className="absolute scale-[1.75] -right-20 -top-4 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Yashraj Singh Chauhan</p>
+            <p className="headtext">Get Familiar </p>
             <p className="subtext">
               In Last One Year I have Completed One Internship As GenAI Intern And Currently Working As Full Stack Developer Intern.
             </p>

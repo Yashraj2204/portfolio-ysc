@@ -1,6 +1,54 @@
 export const myProjects = [
   {
     id: 1,
+    title: "Personalised Car Website Using GSAP",
+    description:
+      "A modern car-based web experience built with React.js, GSAP, and Tailwind CSS, featuring smooth animations, responsive design, and a premium UI feel.",
+    subDescription: [
+      "An interactive automotive website crafted using React.js and GSAP, delivering fluid animations, sleek visuals, and a fully responsive layout.",
+      "A high-performance car experience website built with React.js, GSAP, and Tailwind CSS, focused on smooth motion and modern UI.",
+      "Focused on performance, motion design, and premium user experience.",
+      "Crafted with Tailwind CSS for fast styling and consistent design.",
+    ],
+    href: "https://github.com/Yashraj2204/alpha",
+    logo: "",
+    image: "/assets/projects/car.jpeg",
+    tags: [
+      
+      {
+        id: 2,
+        name: "React.js",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 5,
+        name: "VsCode",
+        path: "/assets/logos/visualstudiocode.svg",
+      },
+      {
+        id: 6,
+        name: "GSAP",
+        path: "/assets/logos/gsap.svg",
+      },
+      {
+        id: 7,
+        name: "Git",
+        path: "/assets/logos/git.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "TicTacToe",
     description:
       "Developed an interactive Tic Tac Toe game using React with smooth UI, game state management, and winner detection logic.",
@@ -10,7 +58,7 @@ export const myProjects = [
       "Added interactive UI updates to reflect real-time gameplay and highlight winning combinations.",
       "Ensured clean code structure and component reusability for maintainability and scalability.",
     ],
-    href: "",
+    href: "https://github.com/Yashraj2204/tic-tac-toe",
     logo: "",
     image: "/assets/projects/tic tac toe.jpeg",
     tags: [
@@ -38,7 +86,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "HRMS Portal",
     description:
       "Built a scalable HRMS portal with role-based access, employee management, attendance tracking, and payroll features.",
@@ -48,7 +96,7 @@ export const myProjects = [
       "Integrated dynamic forms and dashboards to display employee data, payroll details, and organizational information.",
       "Ensured smooth data flow between frontend and backend through secure API integration.",
     ],
-    href: "",
+    href: "https://github.com/Yashraj2204/hrms",
     logo: "",
     image: "/assets/projects/hrms.jpeg",
     tags: [
@@ -75,7 +123,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     description:
       "Created a modern weather application providing accurate, real-time weather updates with an intuitive and responsive user interface.",
@@ -85,7 +133,7 @@ export const myProjects = [
       "Implemented search functionality to allow users to view weather conditions for different cities.",
       "Handled API loading states and error scenarios to ensure a smooth user experience.",
     ],
-    href: "",
+    href: "https://github.com/Yashraj2204/weather-app",
     logo: "",
     image: "/assets/projects/weather app.jpeg",
     tags: [
@@ -112,7 +160,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Meme Generator",
     description:
       "Created a user-friendly meme generator app enabling users to generate and share memes with customizable captions.",
@@ -122,7 +170,7 @@ export const myProjects = [
       "Designed a responsive layout to support meme generation across different screen sizes and devices.",
       "Focused on clean UI, usability, and performance optimization for an engaging user experience.",
     ],
-    href: "",
+    href: "https://github.com/Yashraj2204/meme",
     logo: "",
     image: "/assets/projects/meme creator.jpeg",
     tags: [
@@ -149,7 +197,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "To Do App",
     description:
       "Developed a to-do application to manage daily tasks with add, update, and delete functionality in a clean interface.",
@@ -159,7 +207,7 @@ export const myProjects = [
       "Designed a responsive layout to support to-do list management across different screen sizes and devices.",
       "Focused on clean UI, usability, and performance optimization for an engaging user experience.",
     ],
-    href: "",
+    href: "https://github.com/Yashraj2204/todooapp",
     logo: "",
     image: "/assets/projects/to do app.jpeg",
     tags: [
@@ -214,11 +262,11 @@ export const experiences = [
     job: "Web-App Development",
     date: "Jan 2026 - Present",
     contents: [
-      "Designed and developed responsive, high-performance user interfaces for data-intensive applications, ensuring smooth visualization of large-scale, real-time data.",
-      "Built interactive dashboards to display telemetry, diagnostics, and live status information using modern frontend frameworks and component-based architecture.",
-      "Implemented real-time UI updates by integrating frontend components with backend APIs and WebSocket-based data streams.",
-      "Focused on UX consistency and accessibility, delivering intuitive layouts and smooth user interactions across devices and screen sizes.",
-      "Integrated secure API communication on the frontend, handling authentication states, error handling, and protected data rendering.",
+      "Crafting responsive, animated full-stack web experiences using React.js, Tailwind CSS, JavaScript, and modern front-end best practices.",
+      "Enhancing user engagement through smooth GSAP animations, intuitive interactions, and visually polished motion-based design systems.",
+      "Managing version control and collaboration workflows efficiently using Git, following industry-standard development and deployment practices.",
+      "Continuously learning, experimenting, and delivering modern web solutions that balance functionality, aesthetics, and seamless user experience.",
+      "Building scalable, component-driven applications with clean architecture, reusable code, and strong attention to performance and usability.",
     ],
   },
   
