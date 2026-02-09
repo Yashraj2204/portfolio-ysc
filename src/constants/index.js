@@ -259,7 +259,7 @@ export const experiences = [
   },
   {
     title: "Full - Stack Developer Intern",
-    job: "Web-App Development",
+    job: "Web - App Development",
     date: "Jan 2026 - Present",
     contents: [
       "Crafting responsive, animated full-stack web experiences using React.js, Tailwind CSS, JavaScript, and modern front-end best practices.",
@@ -309,8 +309,8 @@ export const reviews = [
     img: "https://robohash.org/charlie",
   },
   {
-    name: "Dave",
-    username: "@dave",
+    name: "Raj",
+    username: "@raj",
     body: "Simply breathtaking. The best decision I've made in a while.",
     img: "https://robohash.org/dave",
   },
